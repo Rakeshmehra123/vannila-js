@@ -1,8 +1,10 @@
 var btnTranslate=document.querySelector("#btn-translate");
-var textInput=document.querySelector("#txt-input")
+var textInput=document.querySelector("#txt-input");
+
+var outputDiv = document.querySelector("#output");
 function clickHandler(){
-    console.log("clicked!");
-    console.log("Input", textInput.value)
+    outputDiv.innerText = "ajsjsjsjsjsjsj " + textInput.value;
+    
 }
 
 
