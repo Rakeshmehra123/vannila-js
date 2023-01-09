@@ -1,2 +1,6 @@
-var userInput=prompt("This scirpt works")
-alert("hi "+ userInput)
+var btnTranslate=document.querySelector("#btn-translate");
+
+
+document.addEventListener("click", function clickHandler("click", btnTranslate){
+    console.log("clicked!");
+})
