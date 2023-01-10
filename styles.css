@@ -1,14 +1,36 @@
 #txt-input{
-    width: 80%;
+    width: 60%;
     display: block;
-    margin: 1rem;
+    height: 10vh;
+    /**text-align: center;**/
     padding: 1rem;
+    margin: auto;
 }
-
     #output {
         border: 1px solid black;
-        height: 10vh;
-        width: 80%;
-        margin: 1rem;
+        height: 8vh;
+        width: 60%;
+        margin: 1.1rem;
         padding: 1rem;
+        margin: auto;
     }
+
+.container{
+    text-align: center;
+    background-color: #cbd5e1;
+    padding: 2rem;
+}
+.btn{
+    padding: 0.5rem 1rem;
+    display: block;
+    background-color:  #cbd5e1 ;
+    
+}
+.output-msg{
+    text-align: center;
+}
+
+.footer{
+    text-align: center;
+    background-color: #cbd5e1;
+}
